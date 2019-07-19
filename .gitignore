@@ -10,5 +10,10 @@ Assets/NGUI/
 Assets/Resources/
 Assets/WebRtcVideoChat/
 
-
+.collabignore
+*.csproj
+*.sln
 *.meta
+
+stats.txt
+trial-log.txt
