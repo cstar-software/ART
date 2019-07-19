@@ -1,0 +1,2 @@
+cd C:\Users\rorden\Desktop
+ffmpeg -y -f dshow -i audio="Line (Elgato Sound Capture)" -f dshow -i audio="Microphone (2- HyperX Cloud Flight Wireless Headset)" -f gdigrab -i desktop -filter_complex "[0:a][1:a]amerge=inputs=2[a]" -map 2 -map "[a]" -c:v h264_nvenc %1

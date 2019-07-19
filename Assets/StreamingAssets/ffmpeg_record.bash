@@ -1,0 +1,1 @@
+/Users/ryanjoseph/Downloads/ffmpeg-20190506-fec4212-macos64-static/bin/ffmpeg -y -thread_queue_size 512 -f avfoundation -framerate 30 -i 1":"0":" -s 640x400 -b:v 256k -aq 64k -filter:a "volume=1"  -vcodec libx264 -pix_fmt yuv420p -r 30  "/Users/ryanjoseph/Desktop/testvid.mp4"

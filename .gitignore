@@ -1,0 +1,14 @@
+# Specify filepatterns you want git to ignore.
+
+.vs/
+Build/
+Library/
+obj/
+Packages/
+ProjectSettings/
+Assets/NGUI/
+Assets/Resources/
+Assets/WebRtcVideoChat/
+
+
+*.meta
